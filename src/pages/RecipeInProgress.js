@@ -3,6 +3,7 @@ import { useHistory, useParams } from 'react-router-dom';
 import DetailHeader from '../components/DetailHeader';
 import IngredientList from '../components/IngredientList';
 import { cocktailDetails, mealDetails } from '../components/services/dataFetchApi';
+import './RecipeInProgress.css';
 
 function RecipeInProgress() {
   const { id } = useParams();
